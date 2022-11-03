@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 async function getNavItems() {
-  const navItems = await fetch('https://api.example.com/...');
+  const navItems = await fetch('https://api.adball.online/...');
   return navItems.json();
 }
 
