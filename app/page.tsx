@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch('https://api.adball.tech/...');
+  const res = await fetch('https://api.adball.online/...');
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
   return res.json();
